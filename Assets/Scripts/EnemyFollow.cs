@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(SpriteRenderer))]
@@ -13,6 +14,7 @@ public class EnemyFollow : MonoBehaviour
     public float attackRangeMultiplier = 1.5f;
     public float attackDuration = 0.45f;
     public float attackCooldown = 1f;
+    public float attackHitDelay = 0.12f;
 
     private Transform player;
     private Rigidbody2D rb;
@@ -21,6 +23,8 @@ public class EnemyFollow : MonoBehaviour
     private float attackEndTime;
     private float nextAttackTime;
     private bool isAttacking;
+    private int currentAttackId;
+    private EnemyTouchDamage touchDamage;
 
     void Start()
     {
@@ -29,6 +33,7 @@ public class EnemyFollow : MonoBehaviour
 
         rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        touchDamage = GetComponent<EnemyTouchDamage>();
 
         anim = GetComponent<Animator>();
     }
@@ -51,7 +56,10 @@ public class EnemyFollow : MonoBehaviour
             return;
         }
 
-        if (distance < detectionRange && distance > stopDistance)
+        float effectiveStopDistance = touchDamage != null ? 0.05f : stopDistance;
+        float attackTriggerDistance = attackRangeMultiplier * stopDistance;
+
+        if (distance < detectionRange && distance > effectiveStopDistance)
         {
             Vector2 direction = (player.position - transform.position).normalized;
 
@@ -66,14 +74,32 @@ public class EnemyFollow : MonoBehaviour
             anim.SetFloat("Speed", 0f);
         }
 
-        if (distance <= attackRangeMultiplier * stopDistance && Time.time >= nextAttackTime)
+        if (distance <= attackTriggerDistance && Time.time >= nextAttackTime)
         {
             isAttacking = true;
+            currentAttackId++;
             attackEndTime = Time.time + attackDuration;
-            nextAttackTime = Time.time + attackCooldown;
+            // O próximo ataque só libera após terminar o atual + cooldown.
+            nextAttackTime = attackEndTime + attackCooldown;
             rb.linearVelocity = Vector2.zero;
             anim.SetFloat("Speed", 0f);
             anim.SetTrigger("Attack");
+            StartCoroutine(DealAttackDamageWithDelay(currentAttackId));
+        }
+    }
+
+    private IEnumerator DealAttackDamageWithDelay(int attackId)
+    {
+        float delay = Mathf.Max(0f, attackHitDelay);
+        if (delay > 0f)
+        {
+            yield return new WaitForSeconds(delay);
+        }
+
+        // Evita aplicar hit de uma coroutine de ataque antiga.
+        if (attackId == currentAttackId)
+        {
+            touchDamage?.DealAttackDamage();
         }
     }
 }

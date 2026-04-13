@@ -3,25 +3,26 @@ using UnityEngine;
 public class EnemyTouchDamage : MonoBehaviour
 {
     public int damage = 1;
-    public float damageInterval = 1f;
+    public float hitRadius = 1.1f;
+    public Vector2 hitCenterOffset = new Vector2(0f, 0.8f);
+    public LayerMask playerLayers;
 
-    private float nextDamageTime;
-
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void DealAttackDamage()
     {
-        TryDealDamage(collision.gameObject);
-    }
+        Vector2 hitCenter = GetHitCenter();
+        Collider2D[] hits = Physics2D.OverlapCircleAll(hitCenter, hitRadius, playerLayers);
+        for (int i = 0; i < hits.Length; i++)
+        {
+            Collider2D hit = hits[i];
+            if (hit == null) continue;
 
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        TryDealDamage(collision.gameObject);
+            TryDealDamage(hit.gameObject);
+            break;
+        }
     }
 
     private void TryDealDamage(GameObject target)
     {
-        if (!target.CompareTag("Player")) return;
-        if (Time.time < nextDamageTime) return;
-
         PlayerDodge dodge = target.GetComponentInParent<PlayerDodge>();
         if (dodge != null && dodge.isDashing) return;
 
@@ -29,6 +30,16 @@ public class EnemyTouchDamage : MonoBehaviour
         if (player == null) return;
 
         player.TakeDamage(damage);
-        nextDamageTime = Time.time + Mathf.Max(0.01f, damageInterval);
+    }
+
+    private Vector2 GetHitCenter()
+    {
+        return transform.TransformPoint(hitCenterOffset);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(GetHitCenter(), hitRadius);
     }
 }
