@@ -1,0 +1,1425 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/staging' branch; Version is '6000.4.0f1 (8cf496087c8f) revision 9237654'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'pt' Physical Memory: 31912 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Edney" at "2026-04-12T19:58:07.6046774Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-04-12T19:58:07Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Edney/Roguelite
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50566
+-licensingIpc
+LicenseClient-Edney
+-force-d3d12
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Edney/Roguelite
+C:/Users/Edney/Roguelite
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [1256]  Target information:
+
+Player connection [1256]  * "[IP] 172.19.48.1 [Port] 0 [Flags] 2 [Guid] 1520163310 [EditorId] 1520163310 [Version] 1048832 [Id] WindowsEditor(7,PC-PRINCIPAL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1256]  * "[IP] 192.168.31.150 [Port] 0 [Flags] 2 [Guid] 1520163310 [EditorId] 1520163310 [Version] 1048832 [Id] WindowsEditor(7,PC-PRINCIPAL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [1256] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [1256] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.75 ms, found 4 plugins.
+Initialize engine version: 6000.4.0f1 (8cf496087c8f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Edney/Roguelite/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5060 (ID=0x2d05)
+    Vendor:          NVIDIA
+    VRAM:            7895 MB
+    App VRAM Budget: 7127 MB
+    Driver:          32.0.15.9597
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001658 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Edney"
+[Licensing::IpcConnector] LicenseClient-Edney channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Edney-6000.4.0" at "2026-04-12T19:58:08.3462414Z"
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.291 seconds
+Domain Reload Profiling: 616ms
+	BeginReloadAssembly (91ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (87ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (138ms)
+				TypeCache.ScanAssembly (128ms)
+	FinalizeReload (292ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (38ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              218070943a764f4b9a2f0a003a0080e7
+  Correlation Id:          bf4308f3bf61659285a6178658592d50
+  External correlation Id: 9154778683621904397
+  Machine Id:              xFikvrWaJA4PFtcXJBCHskcfMo8=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Edney-6000.4.0" (connect: 0.00s, validation: 0.00s, handshake: 0.69s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Edney-6000.4.0-notifications" at "2026-04-12T19:58:09.0422641Z"
+[Licensing::Module] Licensing Background thread has ended after 1.44s
+[Licensing::Module] Licensing is initialized (took 0.08s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 4672956022934-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Cinemachine.Editor.Tests.dll at Library/ScriptAssemblies/Cinemachine.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Cinemachine.Runtime.Tests.dll at Library/ScriptAssemblies/Cinemachine.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 1066ms
+	BeginReloadAssembly (200ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (213ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (105ms)
+				TypeCache.ScanAssembly (95ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (495ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5193 unused Assets / (1.5 MB). Loaded Objects now: 5805.
+Memory consumption went from 109.2 MB to 107.7 MB.
+Total: 6.700400 ms (FindLiveObjects: 0.413400 ms CreateObjectMapping: 0.328800 ms MarkObjects: 4.924600 ms  DeleteObjects: 1.010500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 27020.196830 seconds.
+  path: Assets/Tileset/DungeonGates/DungeonGates.prefab
+  importAddress: Guid(70f39d619b4d6fe458c56c83c181e61d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/DungeonGates/DungeonGates.prefab using Guid(70f39d619b4d6fe458c56c83c181e61d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '55d71f10877bab9facd31a243ffad999') in 0.0921126 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=61f3f8255c6e30dd6fe2373b4ab6f7ba DependenciesID=8ed20bdd46cfd8310a69d0bcb27fb79a StaticDependenciesID=f15fa6587df361e1ac5a103da25e36d6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.927851 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8972734014d8c6fb3cd6e4cde575d06e') in 0.0810296 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae9903ecb15c0771e00686183452b537 DependenciesID=8c74cef1f1ed0b98a692033024c6b4ef StaticDependenciesID=ac084334475ba2ee37b8f4343cb9f385 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1502
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.817350 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a9c764dede2a3c4a82dca0b84dc24c3b') in 0.0339977 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6f3180078557674779a6d581eccbf9a DependenciesID=c42860f5ca88f1b8deb51c50d06c7cf4 StaticDependenciesID=ccb62da1f873b2c7f699b778ae38aba9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 301.145439 seconds.
+  path: Assets/Scenes/Dungeon.unity
+  importAddress: Guid(6f1b10977530a0e499cb23dbd54cf1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Dungeon.unity using Guid(6f1b10977530a0e499cb23dbd54cf1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1702952e3de4d05fe967610fe850979f') in 0.0144297 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=830feea604d914c671bc9f2333b27cb2 DependenciesID=2e45416c810d79faebb04daee76dd0fa StaticDependenciesID=57ba0ec7d50e8b6d06b4e9e36a04349f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.428392 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '62b394a348c14c2b4b18e396b5837d6e') in 0.0388639 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7485259f81669ff48244efc5316c0012 DependenciesID=7a68bb3256d0a7f8e6f89523d16fc2c4 StaticDependenciesID=70d86ecadad74bcc810718e9a5c21854 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1504
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.900554 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '484dcde4b4c13b593af3b83e40aa5daf') in 0.0180295 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bb94d066c3642b466a0b64bfaeb7075e DependenciesID=7615daad4bdacfc16c18eed41a0706b6 StaticDependenciesID=261838dc1205374cd0afde6d4cf25ee8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.865931 seconds.
+  path: Assets/Tileset/DungeonGates/dungeon_walls_decor_gates_8.asset
+  importAddress: Guid(85aed5f97af749a42897495b87f18d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/DungeonGates/dungeon_walls_decor_gates_8.asset using Guid(85aed5f97af749a42897495b87f18d31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd8791522d494d56ca95641978db0097c') in 0.0123226 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8057d3950d679c5ac758b702e2d8b61 DependenciesID=1b656f345001e014937f4e11cd6dc22a StaticDependenciesID=b042b508994e8ca2de3f7a457cac919e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Tileset/DungeonGates/DungeonGates.prefab
+  importAddress: Guid(70f39d619b4d6fe458c56c83c181e61d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/DungeonGates/DungeonGates.prefab using Guid(70f39d619b4d6fe458c56c83c181e61d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bf0d5ec15dd6898360d6cb5ecab2deaa') in 0.0104142 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8ad9e5aba4a456b2156cd42ea6d5bebe DependenciesID=c9833ae09892e75cce99785b8cfa3794 StaticDependenciesID=7c66ab55d124f3bd729f896143fd07ef 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.835971 seconds.
+  path: Assets/Scenes/Dungeon.unity
+  importAddress: Guid(6f1b10977530a0e499cb23dbd54cf1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Dungeon.unity using Guid(6f1b10977530a0e499cb23dbd54cf1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ba99fb5ff4a8a9c7f987c30f82cd59b6') in 0.0123602 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=72ff99bb2ca7e595f0d2280ca9d54208 DependenciesID=5e331a578bb193964632acdd2ab059f7 StaticDependenciesID=888147c136e8606fe1c56f3484c61bf5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.189865 seconds.
+  path: Assets/Scenes/Dungeon.unity
+  importAddress: Guid(6f1b10977530a0e499cb23dbd54cf1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Dungeon.unity using Guid(6f1b10977530a0e499cb23dbd54cf1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b79133431a40e56d6784312ce75a3137') in 0.0121064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ae3c304420a76466d861378a2d0e610 DependenciesID=53784c33e4b7d65c96571d6754fd8a96 StaticDependenciesID=9f2cea3d7cf31a3b6e3f9f8ebd8decb7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.045706 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '881c7ccf5b552e07eb348738d6759527') in 0.0359834 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7485259f81669ff48244efc5316c0012 DependenciesID=83c655a421699281b12614cbdbb08897 StaticDependenciesID=abec349cfc52e07b4b3bae67ff3419c9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1504
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.941585 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0d19dfe5b7ffc813fc344806070ba5f0') in 0.0148804 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6153174c35663d11be6bc94b381ab2d2 DependenciesID=3c23817166ca40b3e575d2a1d92cb9e4 StaticDependenciesID=cb414a62c952ba94746b5fb64d577d14 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.194776 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3def23ebc046b03ad09d774cbcf32870') in 0.0400195 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7485259f81669ff48244efc5316c0012 DependenciesID=4854ee68b9e259acf2f78654339c96d4 StaticDependenciesID=d68b3079854345e6fb11db6e5de98527 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1504
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.934093 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a5b6e75e31e19904db39607f5bc24007') in 0.0171128 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=44c46047420f96f70fd2cdf2536ee9aa DependenciesID=fb03b129ec36b17eca7e9a1bccb57cc5 StaticDependenciesID=af1c3579e75e1a6b8987a2e1508ba7bc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.666842 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '429f975e18f15ff8f1d2c9a2199f2a0c') in 0.0399983 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7485259f81669ff48244efc5316c0012 DependenciesID=7427c4c11671b5365ee4d476113b4a86 StaticDependenciesID=dc08f79439b52d9204100ab49b7ab2ee 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1504
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.939707 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '19ec4f28f5709c358bf522a1c999cc41') in 0.0154311 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d1218d913fdb682f1a55e916068921c DependenciesID=ea5332ae56454eb5e45ad2cb3a464a40 StaticDependenciesID=6ecde1be2ec2895fe1cc0b02b46cd766 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 173.393402 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2f398cc14bb8b2f99eaef7de24b8231d') in 0.0517861 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=54b702a8018b131fb720ce0f91a8694d DependenciesID=aa23efcaf96a0c67187a1107428d0098 StaticDependenciesID=3976fd4218c50b9da48011f76daf77da 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1507
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.888728 seconds.
+  path: Assets/Tileset/dungeon_walls_decor_gates.png
+  importAddress: Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/dungeon_walls_decor_gates.png using Guid(360ce330a598c0343b030050d8d4a286) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '95cd61efa5f6292d74be64aec2c6c12c') in 0.0174995 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f88c5d87a6b24da1baa8af9a2dc1ccb7 DependenciesID=2bd9e24c4b466fe9e6938c84e6ca9847 StaticDependenciesID=3ced10c158e763a3063cf33288cc3b26 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.812201 seconds.
+  path: Assets/Tileset/DungeonGates/dungeon_walls_decor_gates_11.asset
+  importAddress: Guid(2fcb2ebb0acf0c24bb51b12a89fb689e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/DungeonGates/dungeon_walls_decor_gates_11.asset using Guid(2fcb2ebb0acf0c24bb51b12a89fb689e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cf0876a265d97e60d03467427fd6c8f9') in 0.0089115 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e4ae51565df20177181d22adb968247 DependenciesID=3fe6d1c2bcdcbecd854e770b0ccca82c StaticDependenciesID=996e51529904a350727356cbd59c50c6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/DungeonGates/dungeon_walls_decor_gates_10.asset
+  importAddress: Guid(80c3ea2af4faab44bada9ab69e860304) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/DungeonGates/dungeon_walls_decor_gates_10.asset using Guid(80c3ea2af4faab44bada9ab69e860304) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c2cac47d847f12ac6a157eb95c0ae9e5') in 0.0086422 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ce185d52397a1efc41f8e010f0373df DependenciesID=e4efab336ce79ec69c4452a685474419 StaticDependenciesID=16b35c9407eb71f712dbc6ff91e0e1b8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (61.6 KB). Loaded Objects now: 5840.
+Memory consumption went from 109.1 MB to 109.0 MB.
+Total: 5.302900 ms (FindLiveObjects: 0.244000 ms CreateObjectMapping: 0.139900 ms MarkObjects: 4.901800 ms  DeleteObjects: 0.016700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Cinemachine.Editor.Tests.dll at Library/ScriptAssemblies/Cinemachine.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Cinemachine.Runtime.Tests.dll at Library/ScriptAssemblies/Cinemachine.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.483 seconds
+Domain Reload Profiling: 1003ms
+	BeginReloadAssembly (160ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (276ms)
+		LoadAssemblies (225ms)
+		AnalyzeDomain (120ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (110ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (484ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (222ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5191 unused Assets / (1.4 MB). Loaded Objects now: 5843.
+Memory consumption went from 115.2 MB to 113.8 MB.
+Total: 5.887600 ms (FindLiveObjects: 0.497100 ms CreateObjectMapping: 0.584200 ms MarkObjects: 3.827200 ms  DeleteObjects: 0.978300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Cinemachine.Editor.Tests.dll at Library/ScriptAssemblies/Cinemachine.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Cinemachine.Runtime.Tests.dll at Library/ScriptAssemblies/Cinemachine.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.471 seconds
+Domain Reload Profiling: 966ms
+	BeginReloadAssembly (141ms)
+		DisableScriptedObjects (8ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (275ms)
+		LoadAssemblies (220ms)
+		AnalyzeDomain (116ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (107ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (472ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (208ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5191 unused Assets / (1.2 MB). Loaded Objects now: 5846.
+Memory consumption went from 116.1 MB to 114.9 MB.
+Total: 5.146500 ms (FindLiveObjects: 0.413700 ms CreateObjectMapping: 0.359000 ms MarkObjects: 3.534700 ms  DeleteObjects: 0.838700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Cinemachine.Editor.Tests.dll at Library/ScriptAssemblies/Cinemachine.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Cinemachine.Runtime.Tests.dll at Library/ScriptAssemblies/Cinemachine.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.468 seconds
+Domain Reload Profiling: 962ms
+	BeginReloadAssembly (147ms)
+		DisableScriptedObjects (11ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (268ms)
+		LoadAssemblies (216ms)
+		AnalyzeDomain (112ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (101ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (468ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (207ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5191 unused Assets / (1.4 MB). Loaded Objects now: 5849.
+Memory consumption went from 116.9 MB to 115.5 MB.
+Total: 5.607400 ms (FindLiveObjects: 0.416600 ms CreateObjectMapping: 0.335600 ms MarkObjects: 3.921700 ms  DeleteObjects: 0.932800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-Editor.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Cinemachine.Editor.Tests.dll at Library/ScriptAssemblies/Cinemachine.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Cinemachine.Runtime.Tests.dll at Library/ScriptAssemblies/Cinemachine.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.PixelPerfect.Editor.Tests.dll at Library/ScriptAssemblies/Unity.2D.PixelPerfect.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.475 seconds
+Domain Reload Profiling: 983ms
+	BeginReloadAssembly (157ms)
+		DisableScriptedObjects (12ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (272ms)
+		LoadAssemblies (225ms)
+		AnalyzeDomain (113ms)
+			TypeCache.Refresh (4ms)
+			BuildScriptInfoCaches (103ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (475ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (213ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5191 unused Assets / (1.7 MB). Loaded Objects now: 5852.
+Memory consumption went from 117.8 MB to 116.1 MB.
+Total: 5.728400 ms (FindLiveObjects: 0.458600 ms CreateObjectMapping: 0.342100 ms MarkObjects: 3.704300 ms  DeleteObjects: 1.222900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2046.784852 seconds.
+  path: Assets/Tileset/7eFxN+.png
+  importAddress: Guid(2036c7816a014bd4fb173a21874a357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/7eFxN+.png using Guid(2036c7816a014bd4fb173a21874a357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '14f793c967933873d5e8d3dcf5a010df') in 0.0590328 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d2c3483eb3be820e8e665efb782d4b0 DependenciesID=7ad2351e730d034d4064e980f9141abe StaticDependenciesID=4584a3d76c46819927518c60d3360ece 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.484621 seconds.
+  path: Assets/Tileset/7eFxN+.png
+  importAddress: Guid(2036c7816a014bd4fb173a21874a357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/7eFxN+.png using Guid(2036c7816a014bd4fb173a21874a357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '1d680101394269b7202124b93f2bf46a') in 0.0180862 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e889a650f7fd90976ea250084f21f477 DependenciesID=bc3653e513493ff2dd891a60ded88f07 StaticDependenciesID=2afbb743ee72363945a866d7f5828d44 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.070996 seconds.
+  path: Assets/Tileset/7eFxN+.png
+  importAddress: Guid(2036c7816a014bd4fb173a21874a357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/7eFxN+.png using Guid(2036c7816a014bd4fb173a21874a357d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '06032e2de62a0ad16655c5d83419f1f9') in 0.0066572 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e889a650f7fd90976ea250084f21f477 DependenciesID=fac1ecb144e224ae7fcfbfb81082b4c6 StaticDependenciesID=59e4909203843d6b503148dcfede6c7f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 469.489192 seconds.
+  path: Assets/Scenes/Dungeon.unity
+  importAddress: Guid(6f1b10977530a0e499cb23dbd54cf1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Dungeon.unity using Guid(6f1b10977530a0e499cb23dbd54cf1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9c8b02262a89a7c3fdf4b1988eb0b64c') in 0.0653098 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32b3a0dc0d747c72ba04349063146767 DependenciesID=208a8dcd33db32c45169940dd207d166 StaticDependenciesID=6dea930a47094bfc604ef308b90009f9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000293 seconds.
+  path: Assets/Tileset/DungeonGates/7eFxN+_0.asset
+  importAddress: Guid(96f90359937d3a046a8f83064018c930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/DungeonGates/7eFxN+_0.asset using Guid(96f90359937d3a046a8f83064018c930) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6537bcf2540a9ed91eadb2812cc95063') in 0.0450175 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=332b50846105391d703c713290115156 DependenciesID=f52f2999f6fcdd42890114f7c793d299 StaticDependenciesID=32e6ad68cab111babf0aa903a591f0b0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/GroundDirtPallete/GroundDirt.prefab
+  importAddress: Guid(e4eb3a7fe8378ae40a4920f89d7f4e34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/GroundDirt.prefab using Guid(e4eb3a7fe8378ae40a4920f89d7f4e34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd04e0a2884cc999cf8e7accbe1a622f9') in 0.0321532 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4443d584ef654db492b066083fd0274 DependenciesID=2bfd7982df320f095ac2550c30a9ef34 StaticDependenciesID=f6b681a6842e1e08ebd3af7c98fd8b58 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.492153 seconds.
+  path: Assets/Sprites/tile1.ase
+  importAddress: Guid(fa9c9cd40e4fb3b43afccfa10cbe4570) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/tile1.ase using Guid(fa9c9cd40e4fb3b43afccfa10cbe4570) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0885f39ea7f9ae8db5cf8cfe80d44510') in 0.0500125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8341fd0eb38ba442685993d4e40e7865 DependenciesID=7c83451c4078ef14a90cbca3a0c163b6 StaticDependenciesID=d1a4bedde2e4e8c842088b3ed5a40717 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.580863 seconds.
+  path: Assets/Sprites/tile1.ase
+  importAddress: Guid(fa9c9cd40e4fb3b43afccfa10cbe4570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/tile1.ase using Guid(fa9c9cd40e4fb3b43afccfa10cbe4570) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '2fa3cc90ac9b35828ad95c9803b15dfe') in 0.0347025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ea026d3bc4da93d5063b6ac9e1128e7 DependenciesID=2365fdafeff59979833900fed6b91acf StaticDependenciesID=a233e73800adfd59e2ca940876edb24a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.262554 seconds.
+  path: Assets/Tileset/GroundDirtPallete/GroundDirt.prefab
+  importAddress: Guid(e4eb3a7fe8378ae40a4920f89d7f4e34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/GroundDirt.prefab using Guid(e4eb3a7fe8378ae40a4920f89d7f4e34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '03799853f9a40a52100f3d6688d7436c') in 0.0131491 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=577039fccc36e6edc20cf35f7d26b8cd DependenciesID=d9186ad652a8c60bb0c03bc7f467ab07 StaticDependenciesID=c4c0ea11f0bba1295edd9bb7deef2a56 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.884748 seconds.
+  path: Assets/Tileset/Bricks/Bricks.prefab
+  importAddress: Guid(45b7cb0191668e94d9bf69c103b4b949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/Bricks/Bricks.prefab using Guid(45b7cb0191668e94d9bf69c103b4b949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd6a2df3dd9e8ee3bb834969e18a3b981') in 0.0091561 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c921398657a5c31ca1a3f1f1c87bac2a DependenciesID=5387c3a82fbe27a4e7a6ef178bcf8dd8 StaticDependenciesID=b6aae9562f59fcd91f2d2e9f78887179 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.192103 seconds.
+  path: Assets/Tileset/Bricks/Bricks.prefab
+  importAddress: Guid(45b7cb0191668e94d9bf69c103b4b949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/Bricks/Bricks.prefab using Guid(45b7cb0191668e94d9bf69c103b4b949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'df1876923f4a6972c13db524a0fe9c43') in 0.0088067 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=223cbce0632e1f3af965e8e4a643157a DependenciesID=54406654a4b2d7256c0e0d3cbedaf707 StaticDependenciesID=3b822d74c3ef6bb7260df1afe691f041 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.382694 seconds.
+  path: Assets/Sprites/Bricks.png
+  importAddress: Guid(a6f582b5f433bfa46ab1770a7bf5d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bricks.png using Guid(a6f582b5f433bfa46ab1770a7bf5d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'b6cd1e7412cb7722c6a4bfbffa88796e') in 0.0114616 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b30c4ac3a33136c40f402778c331f02 DependenciesID=86d776c5af50d2f21ee23e50c7b02fcd StaticDependenciesID=6de7df8af4ca16ceb970667ca63bd5dc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.956343 seconds.
+  path: Assets/Sprites/Bricks.png
+  importAddress: Guid(a6f582b5f433bfa46ab1770a7bf5d89e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Bricks.png using Guid(a6f582b5f433bfa46ab1770a7bf5d89e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e6091d37445872b817f3ad91fde4f2b') in 0.0205782 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee165238f4cdfa6d578ce87bde7ecad4 DependenciesID=c76b4fc8216efb8e87ffe0794349bf45 StaticDependenciesID=a91b7dbf43d374920ca158ecd51249e2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.175981 seconds.
+  path: Assets/Sprites/Bricks.png
+  importAddress: Guid(a6f582b5f433bfa46ab1770a7bf5d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bricks.png using Guid(a6f582b5f433bfa46ab1770a7bf5d89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '48b5f5c848c3260f3ddf3fb31a0c3f3d') in 0.0101598 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=729bc3174df7a66ceb28b41ef336e9a8 DependenciesID=dc89081c95e83ecdcdea48c063072290 StaticDependenciesID=19ace638dce875152b9ee0956cdf469b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.737723 seconds.
+  path: Assets/Sprites/Bricks.png
+  importAddress: Guid(a6f582b5f433bfa46ab1770a7bf5d89e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/Bricks.png using Guid(a6f582b5f433bfa46ab1770a7bf5d89e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bb953a2451883bd288150ee638a3bf00') in 0.0096742 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7861dedaca420269aece7016eefeffb2 DependenciesID=ef895ba4ad2c56ab5689b344a2095c36 StaticDependenciesID=c14a60979a09a3c20bbdc61108555214 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.950448 seconds.
+  path: Assets/Tileset/Bricks/Bricks.asset
+  importAddress: Guid(1a91dbad893ce7144a1eefb348c7ab8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/Bricks/Bricks.asset using Guid(1a91dbad893ce7144a1eefb348c7ab8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e8382b7bff51743d5ced2077d8eaafe2') in 0.0099005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11923fd0eacdec4e7a16b1b96aaad2e2 DependenciesID=4246cf51872f3b2cb2fae89af08f7a70 StaticDependenciesID=a040dfb65f362fd898a4829527b7a508 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 358.079949 seconds.
+  path: Assets/Scenes/Dungeon.unity
+  importAddress: Guid(6f1b10977530a0e499cb23dbd54cf1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/Dungeon.unity using Guid(6f1b10977530a0e499cb23dbd54cf1b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a4740ecc481c489ac62eaabdf9422937') in 0.0147597 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1480f9932e6270678db01f267dae178a DependenciesID=9ccb1455d25855ef8d17b7f3617a24f9 StaticDependenciesID=f3d9fff4b2e5029bcde7a830e6dfb94e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 243.180556 seconds.
+  path: Assets/Sprites/BrickedSand.png
+  importAddress: Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Sprites/BrickedSand.png using Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ca145e868f3c04315f5ac643c4630ba1') in 0.0123777 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=944b5211ad85673f038546b45ed7cfee DependenciesID=f80a6d4c77806149e8ac6eaa621cdbcf StaticDependenciesID=6fc44cfcad5967b01f132bfa8e91340b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.899111 seconds.
+  path: Assets/Sprites/BrickedSand.png
+  importAddress: Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/BrickedSand.png using Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '16a36426ddfe5654d50c9b72ac5b8489') in 0.0111525 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=015bb36541e9b644d8b8c22d0cddf80d DependenciesID=ab5f429e5ef9378d5da1ef2acd11d8c7 StaticDependenciesID=3c45a1575590b23873a5b83c1a06d7ed 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.568755 seconds.
+  path: Assets/Tileset/BrickedSand.png
+  importAddress: Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/BrickedSand.png using Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'be8af4b49803a247538939e9180b3ef1') in 0.0090577 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd4e8c2c0cde4b424e2ebc601644b8ff DependenciesID=ebffc450d40a2d7722ac588f9a1d9ee8 StaticDependenciesID=6fc44cfcad5967b01f132bfa8e91340b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.331688 seconds.
+  path: Assets/Tileset/BrickedSand.png
+  importAddress: Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/BrickedSand.png using Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7cd8c20e36178ca66ec108b9714cb66f') in 0.0108057 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb562a931391c427b66f6d0bb90558bf DependenciesID=dd74e5604b9ad78e32f542a27ed6bf91 StaticDependenciesID=be2df6b1eba8d9535a8a11f62e97c9ab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.956882 seconds.
+  path: Assets/Tileset/BrickedSand.png
+  importAddress: Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/BrickedSand.png using Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '01e89700a95f1cbd253888920d56ea33') in 0.0099437 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c4ee23ddb19f87e5b2220048338f320 DependenciesID=305652c29c4e33856df96fb7c6b93f84 StaticDependenciesID=7c908f7cb2d89516d4fe69c9177594cb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.352808 seconds.
+  path: Assets/Tileset/BrickedSand.png
+  importAddress: Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tileset/BrickedSand.png using Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '9391a11a7488ebe4fe02f34d17e30f1d') in 0.0224771 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=548eaba7a717191346611704b0b95358 DependenciesID=ae923db0952b88c10ddd1709f0a2bceb StaticDependenciesID=64905468dc51ba433e1eff484f4c66a6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.934430 seconds.
+  path: Assets/Tileset/BrickedSand.png
+  importAddress: Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/BrickedSand.png using Guid(6ce6b321e7311eb49816dc1c2910d6f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7078d53a04882071fdb1592a0f4216f4') in 0.0158625 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4bce4002473c95b423527886ba983ee5 DependenciesID=f7eea9429a38e0a57ee1f8f97b1b427a StaticDependenciesID=c2a6f43d46840ce3539e9ce7a9900b11 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.598676 seconds.
+  path: Assets/Tileset/TileSand/TileSand.prefab
+  importAddress: Guid(79266cf6aaca51048b5911fcc8a485be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/TileSand.prefab using Guid(79266cf6aaca51048b5911fcc8a485be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a899afc12ba6b9e4c51442a87d870841') in 0.0090358 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85d765426ad53ba45976861c18ca0bb5 DependenciesID=ce63fa2c2d921bce9618206797c7ae77 StaticDependenciesID=8fd6c7f0a39b641a33bef63bc65457e1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.784504 seconds.
+  path: Assets/Tileset/TileSand/BrickedSand_10.asset
+  importAddress: Guid(989c8a57f4bfd8c4ead207bf87864d49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/BrickedSand_10.asset using Guid(989c8a57f4bfd8c4ead207bf87864d49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b482dbbd5a996d1bdd82df687e285272') in 0.0116275 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a4e45a262177967eb62ab84a40bc2646 DependenciesID=ff64a4b525dd2c7787893cc7ee88ba6f StaticDependenciesID=5800b7b5b60f75738cc778965ec7d21d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/TileSand/BrickedSand_13.asset
+  importAddress: Guid(e2c45ff310fca0e4ba088730d131d836) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/BrickedSand_13.asset using Guid(e2c45ff310fca0e4ba088730d131d836) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9a7a1395b4a0bbcc8c4d9e9d0543b69d') in 0.0106018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd75bdffd31496c85cdf7c5778c9de4e DependenciesID=54145d525d270507dcd4135412934432 StaticDependenciesID=3e918749bedc91d906f3ce487bcd0ae8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/TileSand/BrickedSand_7.asset
+  importAddress: Guid(29cc3958d0488694f90ef7703a676f25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/BrickedSand_7.asset using Guid(29cc3958d0488694f90ef7703a676f25) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '65593f76d6380c5317108c5e12eed249') in 0.0088796 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a221959dca7ec58b7ecbf8d0ab0fff3d DependenciesID=717d1beeaa951043bc44a9715439f89d StaticDependenciesID=14313a29f977b08b5c3c525440694271 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TileSand/TileSand.prefab
+  importAddress: Guid(79266cf6aaca51048b5911fcc8a485be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/TileSand.prefab using Guid(79266cf6aaca51048b5911fcc8a485be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e1fcd5fcfb50b1fe4fe202046011e90e') in 0.0088236 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9a4c1314d011274ed04d62f0aaf8c61 DependenciesID=97338b07812c07590a40177f42c6df40 StaticDependenciesID=d59ecfa175a73b0499299621e981e989 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/TileSand/BrickedSand_12.asset
+  importAddress: Guid(d5a20e6567c1deb479430fef557df3de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/BrickedSand_12.asset using Guid(d5a20e6567c1deb479430fef557df3de) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8baf2a9ea34140f7422c8df707bc91a7') in 0.0117295 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1bc6cd7643401f7138a215d8c14f036d DependenciesID=962e84867b86632e52c69e287d4da61c StaticDependenciesID=7fa3071da5d964118ec71088dc32f7d0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/TileSand/BrickedSand_11.asset
+  importAddress: Guid(85d8137a8e8bc444f9bd112bebcf3a6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/BrickedSand_11.asset using Guid(85d8137a8e8bc444f9bd112bebcf3a6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0c821182a85e3fc2068775a18ccd7ce8') in 0.0098203 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e72dff21784129a6aad520732d176c3b DependenciesID=36e93ae522bd2c62f6b7f3cf652d7847 StaticDependenciesID=9e774ad4c591a081f3b16ce2557d2b15 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/TileSand/BrickedSand_6.asset
+  importAddress: Guid(2ace4a6a4440b9746b2d7e048d2cce36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/BrickedSand_6.asset using Guid(2ace4a6a4440b9746b2d7e048d2cce36) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '69f1e1efd79ce0494c075aff6e2b101e') in 0.0090031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a81f85ccfde2a94167bc4772dde886bc DependenciesID=8f42ceff17a4d1ebb6f527f7b3b56d56 StaticDependenciesID=88ab20786b32c6d407c54a92b5ecbc5e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/TileSand/BrickedSand_0.asset
+  importAddress: Guid(44b85bdd9dd356c4ca470f161bd3404c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/BrickedSand_0.asset using Guid(44b85bdd9dd356c4ca470f161bd3404c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '395208946b2093336001779434c00381') in 0.0091632 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1899a0d901554344adcdfa41202bbe80 DependenciesID=f4c986f0b8f3761ff9bc4dc05898a2b9 StaticDependenciesID=f35013378aeb8599f0817b2905ef840b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/TileSand/BrickedSand_9.asset
+  importAddress: Guid(47e399a1f08214c4d9106fe7bab7cd93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/BrickedSand_9.asset using Guid(47e399a1f08214c4d9106fe7bab7cd93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'deedaa6f40e48debe40b73ecd2965b8a') in 0.0081093 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f9e60aca33b111d037c73d4fe782717 DependenciesID=20bc0588a0392e9611b5a01f5d4b4f73 StaticDependenciesID=f9bb3cf7694dc7dd9e731293dc9c9124 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 302.779970 seconds.
+  path: Assets/Tileset/TileSand/TileSand.prefab
+  importAddress: Guid(79266cf6aaca51048b5911fcc8a485be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/TileSand.prefab using Guid(79266cf6aaca51048b5911fcc8a485be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4cdeae943601d214a229ff6db38c4cc5') in 0.0096469 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c7640c018a15b0f19de5f4df67de3d0f DependenciesID=78efb9b2a5e2cf2b2743273d0d6eac67 StaticDependenciesID=5ba08e5e2cdeb08fd0c95a84e621c1cc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.166002 seconds.
+  path: Assets/Tileset/TileSand/TileSand.prefab
+  importAddress: Guid(79266cf6aaca51048b5911fcc8a485be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/TileSand/TileSand.prefab using Guid(79266cf6aaca51048b5911fcc8a485be) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '29a5fa57e2834dd66b3adf7768a1c76c') in 0.0101898 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e4395f5e6b1adba7f6f8de7710468e6a DependenciesID=f19dd672c8a02a8ec1a45e1cd621174d StaticDependenciesID=a92290600c9444d937d5039a46579df5 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 229.793797 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_100.asset
+  importAddress: Guid(b3080816d3d9cff4ea49b619417f4074) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_100.asset using Guid(b3080816d3d9cff4ea49b619417f4074) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7775ee9886041b70d20a9d365df00b47') in 0.0158099 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=10919cb68d9bd7418be1c912c3310903 DependenciesID=e9ee0c0f368cde9121ab4ebf44564f0f StaticDependenciesID=88d7e5b6c18ac1046fbff35ec1f3d78f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_75.asset
+  importAddress: Guid(dd93192d7ac6960488b999dd5290ac90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_75.asset using Guid(dd93192d7ac6960488b999dd5290ac90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2e687a87c9ac7f9fe26ef45bf4ea5b4') in 0.011741 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c3324441fb38d9982c8ee5e513d0e781 DependenciesID=2a1fee27b2e26f156623dcba300d22e6 StaticDependenciesID=a922dcb363381ec4445e15aa0072d6e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_36.asset
+  importAddress: Guid(dc4ec58286e59d5459357e9d4192cee2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_36.asset using Guid(dc4ec58286e59d5459357e9d4192cee2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '1db66ba36c3f2f2eb1f9e8bd2a68dd98') in 0.0087231 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=749a5707264fd90c2def02203d061af5 DependenciesID=af5e777db0ae74c9af625c20743ed56a StaticDependenciesID=ff0b23245830ee4ce695090ea9970352 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_63.asset
+  importAddress: Guid(1b647de2d0d0e6a4d813aa270897cb0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_63.asset using Guid(1b647de2d0d0e6a4d813aa270897cb0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fbaeb0c27fd701b3d32393052f64d4fa') in 0.0118989 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2bff841b2c097784fec8b053eb38e969 DependenciesID=dab683b320b488e12bd5a31c6b0fadff StaticDependenciesID=131de25faafac145adeebe15a208aad1 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_97.asset
+  importAddress: Guid(606e95f9ec040d346a652f7012f29bd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_97.asset using Guid(606e95f9ec040d346a652f7012f29bd1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ebc67dd65e02b28e6f447a3dd9e55f65') in 0.0105014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3377b92f2bfffc876707d4ab8d86a76a DependenciesID=252103ab0b66465dac6be028a45dab17 StaticDependenciesID=d72c60123fff9e516abf0fc43985840d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_7.asset
+  importAddress: Guid(ef710ce4451bd744e8ed02bc4a5a46f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_7.asset using Guid(ef710ce4451bd744e8ed02bc4a5a46f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c2c9c3ade28e58ede5cdc4d451ba3e7c') in 0.0093265 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1620eff8375a7be088fc807bbebfcdc DependenciesID=25d64591917e2740ee3f2ab777cdc60b StaticDependenciesID=499c27e0ed38e0dca4930e15ec7e7493 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_22.asset
+  importAddress: Guid(3f250e4f36b853340b95f14c85bce48e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_22.asset using Guid(3f250e4f36b853340b95f14c85bce48e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '28c1afaad7fbe4ad48d1d0fbbf3d1c43') in 0.012352 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=931c9dd3f819bb247bc6edc1bb7f3b24 DependenciesID=7c31ac3e52f3528ce6b3fb41afead80a StaticDependenciesID=aa1401f4dbf4eb3ca7ae0a53053c895c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_11.asset
+  importAddress: Guid(a8170effd412120488d7b65e3de239ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_11.asset using Guid(a8170effd412120488d7b65e3de239ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'efb1ef6e4bf24baf223f77b3789fa189') in 0.0105117 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7898e30aeef091f6a6e3a3fc070b5a2b DependenciesID=d4e831128101cc8aef2e0f222f984ad7 StaticDependenciesID=8e5eb18ff2d2467864ae3b51205da3e8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_96.asset
+  importAddress: Guid(ea653e2c53d5b60449cffb2168eeff01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_96.asset using Guid(ea653e2c53d5b60449cffb2168eeff01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '61530fc835212b92fd22a25ebf00b329') in 0.0137299 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fdaba30688b4c0023ffe1df9a06acc8a DependenciesID=42aafb377e80cd13bebaa483a895fa11 StaticDependenciesID=69456871d75c580b50ec44bdaacef629 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_26.asset
+  importAddress: Guid(7815aa61e7e0dca49bf51234b9e33f44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_26.asset using Guid(7815aa61e7e0dca49bf51234b9e33f44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '12daf962c3d2839f009deae628d62c02') in 0.0106774 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27c940b0e35e9fb05a6ab8fbf954bdb7 DependenciesID=3e8e67f5b41ef7eebd3c6106f623c292 StaticDependenciesID=2a861c483e404f852e75295d09958604 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_106.asset
+  importAddress: Guid(350af29a0e1d5fb4d8b18028ac20526a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_106.asset using Guid(350af29a0e1d5fb4d8b18028ac20526a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '76c23709f7e5f12a303ef8b863727283') in 0.0140634 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9a82b67152bc9ca0350027bac2eb14a DependenciesID=03237db132f7e118e3f8c5077c706d29 StaticDependenciesID=1560cc8252e4588699f26a7334163527 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_35.asset
+  importAddress: Guid(b05d34832c5318f4cb34012b8a061d10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_35.asset using Guid(b05d34832c5318f4cb34012b8a061d10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7ba8129e8205d23249b7c0c71d9ae14c') in 0.010545 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e497b1e878f19dbb3f8283a4e5089b15 DependenciesID=ae70a1c13e3e47f0a58623cc59f93d08 StaticDependenciesID=4dd7b2a606a279738f0268d783412c91 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_62.asset
+  importAddress: Guid(679ed9d67cd6f7c40bf2ae1d7fc69e76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_62.asset using Guid(679ed9d67cd6f7c40bf2ae1d7fc69e76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6879fda5d330044f83ab7c9f5148f651') in 0.0109619 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ed9c3063420c5bd835bff96cb9a8afb7 DependenciesID=5acbe26d00aed1604a071483ab1eb6e1 StaticDependenciesID=1769e376707898a3e9ae96f0c4affb3c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_12.asset
+  importAddress: Guid(2ee2f4de2a1595647959422d778a0086) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_12.asset using Guid(2ee2f4de2a1595647959422d778a0086) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f738e7d3bb9445823f1c39606ac72a0b') in 0.0118518 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2c678ad905f8b0a04e7a3d736f1290e8 DependenciesID=e0a845857a151206d3ea0781709d7de0 StaticDependenciesID=11b618b726d1bf1dbb67102a24e393dc 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_24.asset
+  importAddress: Guid(469b8ec9b11261746a86ebe87f2f1396) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_24.asset using Guid(469b8ec9b11261746a86ebe87f2f1396) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6b5b0998228871e2ffd7f9d362f1243f') in 0.011138 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12a0d0df7b0387be0407d4899a309056 DependenciesID=869615553fbf8ce08bd07fa3fa7e470d StaticDependenciesID=11f49c3ae14286332cfe2dd7f35b9765 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_110.asset
+  importAddress: Guid(22ee0c2de403bcb41928d4041f5321e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_110.asset using Guid(22ee0c2de403bcb41928d4041f5321e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '25e8b2a08242e3177bb27572d56e77fb') in 0.0099597 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24a07dcb396b6cef0381981b75cf3ad4 DependenciesID=7c49b82c87b2f16e312d5be5d39c25d0 StaticDependenciesID=502e41685c399123b1a2b3e2f1059da2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_18.asset
+  importAddress: Guid(e9949c94edb885a4aaed01840117183b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_18.asset using Guid(e9949c94edb885a4aaed01840117183b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '957154cf965df3fb5b78891ffb93e608') in 0.010029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d2390cd9353c919d942dbfb0a5c8d8bb DependenciesID=25ad347361cc5e4cd35439540872d23a StaticDependenciesID=e4b6073220e61e4c04e3fcc37b7ee1ae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_9.asset
+  importAddress: Guid(259788e9c74a4ee45b29df403f0291bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_9.asset using Guid(259788e9c74a4ee45b29df403f0291bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '051cb23477c11a80135bad0a9f3fbc6b') in 0.0098325 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ece17fd7fc5c27b5b11b179e947b496 DependenciesID=756ed7f83a6e3d966e5739a2677d922a StaticDependenciesID=d2c8224b7caf5bec898fd56155a7e6ff 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_69.asset
+  importAddress: Guid(427249d90d2098344b49a558e8db841e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_69.asset using Guid(427249d90d2098344b49a558e8db841e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '352bd9307d9c30ad5cfd960c16d69c17') in 0.0105157 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cdc3501574f6fe4cff07baa6044a1fa1 DependenciesID=6f4f5f1eb5b24e65c3b5aca8eceb6738 StaticDependenciesID=6b792a21b65450cb675378bc59280e66 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_93.asset
+  importAddress: Guid(bd300119ce6c9a242917e1fd4632d843) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_93.asset using Guid(bd300119ce6c9a242917e1fd4632d843) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '00e6704b2c35f69858999f5e0457bda6') in 0.0106421 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=efcd65603fc7936537dde348f3db479f DependenciesID=0ebcc7259f6c1d5b928a9a1ab05bcdd7 StaticDependenciesID=c4fbcb8b60b253aa00e43e650585506a 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_95.asset
+  importAddress: Guid(fd6d1f19292c6794e828114b0f80c9b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_95.asset using Guid(fd6d1f19292c6794e828114b0f80c9b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd3abc041dee7ca5fe711635d83680c62') in 0.0106285 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0d4239d2f7e25f5c75c485c367cf42ee DependenciesID=bff383b0f3cb2b62598b5666f87601ec StaticDependenciesID=9d9f6237abb6b087e361cabc72bd4cd7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_105.asset
+  importAddress: Guid(3aba58f2d4a1c3345ab66046fceb23e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_105.asset using Guid(3aba58f2d4a1c3345ab66046fceb23e8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a4f3e33db3a02bd31dcc70693d534605') in 0.0102609 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b2d0e52768794c4756bbddfe553570d8 DependenciesID=c78cabd3cd72ef609e35bb485df10709 StaticDependenciesID=6319dc31434cca8557242b0056ae7d2b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_31.asset
+  importAddress: Guid(0827e8b8c20afe84985f8fc090625202) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_31.asset using Guid(0827e8b8c20afe84985f8fc090625202) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd521dc7b63894aeeaea90ceb4fdaa051') in 0.0108861 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19407eb095b49b65127f78464cddbf62 DependenciesID=6ff1df8a0135c577e9142cd0d637d175 StaticDependenciesID=2dfcdca202aeb16fc7dbb9811c518f01 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_91.asset
+  importAddress: Guid(0fb27712eb9227545b4ab162c299f3e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_91.asset using Guid(0fb27712eb9227545b4ab162c299f3e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a54f9de5801823c709a9ea86b3e673e0') in 0.0104863 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0791a5aaf59266e3c671ebe6be7cc647 DependenciesID=a36a0f219d50bc5bd9da061c6ee1869d StaticDependenciesID=5958550a1773c5b8bd9a184fd5a7fd32 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_56.asset
+  importAddress: Guid(7124fd271977a1348878d0b788fd0662) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_56.asset using Guid(7124fd271977a1348878d0b788fd0662) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '314d5cc7d9730c88687902fbee3334bd') in 0.0099017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4cb3e3295506353e8721bf8c19dd014e DependenciesID=31c2b1572a319c65395b5f424e31487f StaticDependenciesID=aef8edb9592990451c19cfe2a619f761 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_5.asset
+  importAddress: Guid(a4eae1c59740e8348b40cb9200a140af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_5.asset using Guid(a4eae1c59740e8348b40cb9200a140af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '50c04e0ed1df533261f3659538ef08ab') in 0.0098547 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a63da775a0ab1f1f143adad4eac0b8af DependenciesID=5a0f234a5876131dc998d0ac06d5331b StaticDependenciesID=aef5d5ed5e880e73d6fbcdb66adde5bd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_76.asset
+  importAddress: Guid(63e664c585d072b4f803685694128a6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_76.asset using Guid(63e664c585d072b4f803685694128a6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ea106478509182337b19d0b97e980f3d') in 0.0100876 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86892c8013cebc3d309a6cf45c7cee8c DependenciesID=91d58e3f37b4e80c5afc8cc8628ec7ad StaticDependenciesID=2206469b2b86b3c7963297cfb995770e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_32.asset
+  importAddress: Guid(181752e5bfaa29d4ca28a6ee50739472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_32.asset using Guid(181752e5bfaa29d4ca28a6ee50739472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3c6fd42870fb58c4f03018bcaff1076c') in 0.0109345 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35afea6be21cd9a5251f12f93a6065cd DependenciesID=ae28640a029046f79e8d2eea04848a55 StaticDependenciesID=dd5608d65ba41019f4e92232d25f4a5b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_109.asset
+  importAddress: Guid(0609fd960b155d444a0270d83322ec5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_109.asset using Guid(0609fd960b155d444a0270d83322ec5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '91c1eb71e042e6983e4b94285535a5df') in 0.0102247 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=91aa0884914d1e056b64f18eed93841c DependenciesID=5c810d10aa6c5334cf74b56e08c8278c StaticDependenciesID=875f7489f1c785200e292ddf3e663645 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_103.asset
+  importAddress: Guid(7701e63ba114096439315bd54598f956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_103.asset using Guid(7701e63ba114096439315bd54598f956) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '43eb481dd55191e86f5f346b9402658d') in 0.0118435 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ae9135bc6730159f751b04c35491d5a6 DependenciesID=53073c56caadaa0e6f01aca7e9c30194 StaticDependenciesID=7a6d2b7a842ea70b36fa46f761cacda7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_60.asset
+  importAddress: Guid(a1d0f710207b998498e0d0531aacdcbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_60.asset using Guid(a1d0f710207b998498e0d0531aacdcbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '301b5169cbcab8eb145a30cd74c3d397') in 0.009237 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a575cec3c64ded4d99ebb775d247c9b DependenciesID=0e0da460357b5ff3b923271481b97b94 StaticDependenciesID=73a04526bbcfbe002ef8fcf15496f58c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_44.asset
+  importAddress: Guid(93ee2c22875e19b4cbddf6be3940f097) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_44.asset using Guid(93ee2c22875e19b4cbddf6be3940f097) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b15fb875ae6239b76ce0e87630310a3e') in 0.0086196 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9fff3fbb63d8f16acf9354d36d794716 DependenciesID=934204b92d31b6d5d1836dbe5c4c0e43 StaticDependenciesID=4f4035afc2802985cdbc34b59624c3b6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_43.asset
+  importAddress: Guid(62515e49dc63a8b4d923b0e73a35c625) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_43.asset using Guid(62515e49dc63a8b4d923b0e73a35c625) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '6723035f5f33f29f10ba05de94badb90') in 0.0094911 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d24118c365920227c7f087e7efab97eb DependenciesID=46fb9a41aff5398497b6094bda5f816a StaticDependenciesID=298fede31a1a22cbb1a4ab740e966fd7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_49.asset
+  importAddress: Guid(579763c817ceca948b8a3dce17384272) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_49.asset using Guid(579763c817ceca948b8a3dce17384272) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ffde7ad703ba2dd85b10713e42886002') in 0.0109072 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a6297203d050b3f3750cf19c13a20b9 DependenciesID=5b1c0fad84f687ff46f60a91b731132d StaticDependenciesID=0e3ee6a5d5f63bff7948afd36e17de6b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_59.asset
+  importAddress: Guid(cd093147104b5894188a302c59ccfe8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_59.asset using Guid(cd093147104b5894188a302c59ccfe8b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '262ca7d3a648dc4ead598852fddc2569') in 0.0105827 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=205cf19912f1b301568fb9c3c5072d79 DependenciesID=6c9e7588d8f329a2b9a456178cd38936 StaticDependenciesID=d0020ed93f9625ec3821e288215894f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_108.asset
+  importAddress: Guid(9d049f1feebe316499752dfc4fbc6c67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_108.asset using Guid(9d049f1feebe316499752dfc4fbc6c67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '4518d80c7abbc5880d3641c79447c370') in 0.0101743 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a167ddd00a902a9e518c9df1201592a6 DependenciesID=9c6064936cac6528b3d4e4cc76f3ee8f StaticDependenciesID=2519383582128666f65c7829175bb3d4 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_68.asset
+  importAddress: Guid(ca61f7ce1f7f2f5458dec70d1400ab94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_68.asset using Guid(ca61f7ce1f7f2f5458dec70d1400ab94) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e6d935112ea0d1f6ec713c99d98366a3') in 0.0101325 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=84d435cda9039e6323dee6e630bea71a DependenciesID=f2d5f74dfa756ba952c2c3a623eea3bf StaticDependenciesID=da1601c8c0305dbf33d5cc34bd2f5fae 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_107.asset
+  importAddress: Guid(4b903ff7f6cf32e4a91124dc1776508f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_107.asset using Guid(4b903ff7f6cf32e4a91124dc1776508f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '8e116727e2fc41343a6e9f3c3a698b76') in 0.0104049 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57b60e1f670ecc9ef63e72974ede5aa2 DependenciesID=1d905224c259497d0f51c1ce20da3530 StaticDependenciesID=14aada73dbf653cfed1d0d85a25f66af 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_98.asset
+  importAddress: Guid(c373823b69141d148904a6ed3d99a200) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_98.asset using Guid(c373823b69141d148904a6ed3d99a200) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '86fe67ad97f2a6629c35530da1622aca') in 0.0104305 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=34087b603c008b7415b9e6ad4d069d51 DependenciesID=221fb96d77c91f273801f61d445e84ac StaticDependenciesID=bd7820ae127ecf30dc337d8536584bb6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_39.asset
+  importAddress: Guid(a3576c5cf267ca04584460a8e6783b9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_39.asset using Guid(a3576c5cf267ca04584460a8e6783b9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0a3f7cd170c818dde238491ca15fd72d') in 0.0100538 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=739a5a2c67a4b2490e10723d9f2f215a DependenciesID=807c3594998a992f55d1b6603cec71af StaticDependenciesID=334a4e71164ecffc228820f752bc2e76 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_4.asset
+  importAddress: Guid(e04a1732461ab544db63ae840d215442) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_4.asset using Guid(e04a1732461ab544db63ae840d215442) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c9a2f2e25e85b683427fe123d72b1c24') in 0.0103985 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=93a93bd3c684f57608a0b42d3d578787 DependenciesID=717a2dc2d025a1ebfc47c1dd17971ac9 StaticDependenciesID=0d246e04d8717dd55f799741eb5a44f7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_101.asset
+  importAddress: Guid(97dd7462cf6ba7344953fc4336a60a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_101.asset using Guid(97dd7462cf6ba7344953fc4336a60a0a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '917670f96176881df66081341361993a') in 0.0098622 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8d860199ab96baa9dfe41d80ac9d2a9 DependenciesID=692c2fddf8cd51d0aaa39f9aec519333 StaticDependenciesID=3c02d0962c824f1e91ec8a0c503c72fd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_85.asset
+  importAddress: Guid(f0b51b7e38cd5c741b58ff7eb5ff308b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_85.asset using Guid(f0b51b7e38cd5c741b58ff7eb5ff308b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'afd7f2875d391d4b75cc024d0bc9d234') in 0.0100944 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=644dbbc3f371370b6b481c97fcbfa20c DependenciesID=1472ed6cfcfaf54ec5a4a70bbf61684e StaticDependenciesID=84e365439eb6a1dbb17e37ef4bb744f0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_19.asset
+  importAddress: Guid(618154036a9ed8b48aea78235eab8b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_19.asset using Guid(618154036a9ed8b48aea78235eab8b28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e035adf81e8215a1abbc853192dc7bd2') in 0.0103216 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e70752aca7fbe3b4657122dbaf8a20d8 DependenciesID=7ddbe71dd07e3116e9d84dbf1ba0bb34 StaticDependenciesID=3afcd1d4e1ef574756aef47d0ac8870d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_57.asset
+  importAddress: Guid(3f591a02f3950d941a659ee681072b73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_57.asset using Guid(3f591a02f3950d941a659ee681072b73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0f6cf9a22dba00c2913c125ede9d1a6e') in 0.011453 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=16b8bbd188682467338fd11c7203d216 DependenciesID=84dba1c91a7c4ad81560d0afb529aa8f StaticDependenciesID=848d8bf52cc9df4f03706484e0ea8a8f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_3.asset
+  importAddress: Guid(b98842e030298114d86f9f48e9be7c16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_3.asset using Guid(b98842e030298114d86f9f48e9be7c16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'f0756c08ac0b23a0574a399f84ca452a') in 0.0112268 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9be0de0225c04ec5d9d78402807dae8 DependenciesID=f3644fe16e2f84f411a01dbd1164073c StaticDependenciesID=588d6230f9511dd76588d4be3b30a74d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_8.asset
+  importAddress: Guid(451c3e7e95ed59e4fba21c9781e2aaa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_8.asset using Guid(451c3e7e95ed59e4fba21c9781e2aaa3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '82da3b1996aa73dc716a0cd41685c0f1') in 0.0096514 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c4b1998aa42323b28991fc8989bde7f DependenciesID=a92a95d88952d15976cdc7260f8c5c83 StaticDependenciesID=169fb0a5642e7169e191b5a66beb2910 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_94.asset
+  importAddress: Guid(f8e1007e6ef05af4f8911e64291b0edd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_94.asset using Guid(f8e1007e6ef05af4f8911e64291b0edd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'b2b0df3c85377e34602b885a9a553e71') in 0.0103681 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd08050b4dd5395092e11b177bacdc63 DependenciesID=7d74f1a8a7e6d7020fa3d5a37d039c62 StaticDependenciesID=44c3a1f1a85a3c12b076c8d19796aa69 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_45.asset
+  importAddress: Guid(e7136b080f4f0794d8220f65acd35f09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_45.asset using Guid(e7136b080f4f0794d8220f65acd35f09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '7b6572cb1a0ae8cc0e141712e07662a9') in 0.0100708 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=32661d90291e108ff0b46b5c9f5e8b22 DependenciesID=9ce445b532038fc186f30222f520857e StaticDependenciesID=d95c37676fddd97570a1e6827b24d073 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_15.asset
+  importAddress: Guid(5e71eb1bca9fd28468bdc3d0931d8915) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_15.asset using Guid(5e71eb1bca9fd28468bdc3d0931d8915) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2454bcecd55609dc1d4ad66e028daec1') in 0.0106127 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2dcdf1530c468457bcfd3bf05949cd17 DependenciesID=ccca1df894af644ae063ffb0eb4ae549 StaticDependenciesID=be960b7c13c6e6d558e002d2c314c1c3 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_27.asset
+  importAddress: Guid(d3e4b372130c66b499e071d9d7079201) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_27.asset using Guid(d3e4b372130c66b499e071d9d7079201) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'bb57b606795152368702eec8ca2cc7d7') in 0.0111692 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3dedec21b8563fd10961b42b923142de DependenciesID=b9e6916f890ed572f678c2cc51004495 StaticDependenciesID=ba52259a5b65b489dd0f24083152dda2 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_87.asset
+  importAddress: Guid(31ec70b51fb339c45b049ccb031a75f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_87.asset using Guid(31ec70b51fb339c45b049ccb031a75f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '07168c432807436c7c4be45ebc103ea0') in 0.0124755 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=720354202f627a861d2406c61b561bc1 DependenciesID=ce71cd7bbf04795f7c611f93b464e866 StaticDependenciesID=d844b8911aab09c7c8af555e87617edb 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_17.asset
+  importAddress: Guid(ed4fc64833ea63f4e99053cd74fcf501) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_17.asset using Guid(ed4fc64833ea63f4e99053cd74fcf501) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'cc915c8d33bda5e23a317b2dacd2be48') in 0.0127327 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ffa7a795154418f77b1e30b390e39b3f DependenciesID=dadd81655dc8b344b7f6a1293d9aee00 StaticDependenciesID=d28a5b38983a7a2b0f184eb9f25d570b 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_70.asset
+  importAddress: Guid(e37e1770a159ed443a1d46be7b6a1f3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_70.asset using Guid(e37e1770a159ed443a1d46be7b6a1f3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '3a195e640f3865e517a2da93a49049fa') in 0.009332 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5ffa5c92720a3e76b29571edb1b0d59c DependenciesID=774fee0280b8be70e6183b0a5e843ea5 StaticDependenciesID=6150aefb682a606e883651bbf39b9bd0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_48.asset
+  importAddress: Guid(7a608e99c49c3274893a665ee1a5df32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_48.asset using Guid(7a608e99c49c3274893a665ee1a5df32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0d05fd30e0092ca4207b51a3581961fb') in 0.0092131 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d257064c59d9240c5b875322aeb3e5bb DependenciesID=b88e0031c6336aef9ac9b798f990c1ba StaticDependenciesID=8ec05fcf6288b79f721d53c3e994d523 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tileset/GroundDirtPallete/ground_dirt_orange_33.asset
+  importAddress: Guid(c5ab96ffcce064542943a717bab4962b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tileset/GroundDirtPallete/ground_dirt_orange_33.asset using Guid(c5ab96ffcce064542943a717bab4962b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '93018bc2bdfaf2910952e58a31fdedb3') in 0.0122131 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=94575b8da94bbbb7403f1e5d0618446c DependenciesID=eaf34e5e583245a6908a6ff8d918c8aa StaticDependenciesID=d656366c6dafe2880f0a672459894011 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
