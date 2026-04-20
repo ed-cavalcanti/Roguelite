@@ -147,6 +147,32 @@ MonoBehaviour:
   ghostPrefab: {fileID: 2350052290954011397, guid: 90642eb48e8fab348a72cf155d1163e4, type: 3}
   ghostDelay: 0.04
   isDashing: 0
+  playerLayerName: Player
+  enemyLayerName: Enemies
+--- !u!114 &63728023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63728014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4268aa535839b54db78b439f48493fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
+  maxHealth: 6
+  healthDisplay: {fileID: 0}
+  invincibilityDuration: 1.5
+  spriteRenderer: {fileID: 0}
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTakeDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  onDeathScene: 
+  gameOverManager: {fileID: 0}
 --- !u!1 &71960301
 GameObject:
   m_ObjectHideFlags: 0
@@ -10464,7 +10490,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 228454773
-  m_SortingLayer: 8
+  m_SortingLayer: 9
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -10803,6 +10829,7 @@ MonoBehaviour:
   shootSound: {fileID: 8300000, guid: 4b87c7537defac848a97e66ec140f32b, type: 3}
   volume: 0.5
   fireRate: 0.8
+  minFireRate: 0.4
 --- !u!82 &1688124133
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10980,7 +11007,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 492947855
-  m_SortingLayer: 9
+  m_SortingLayer: 10
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
@@ -13287,6 +13314,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2729586786663484666, guid: fab06cc6697437844bd769c19aeea27c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 63728022}
+    - targetCorrespondingSourceObject: {fileID: 2729586786663484666, guid: fab06cc6697437844bd769c19aeea27c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 63728023}
   m_SourcePrefab: {fileID: 100100000, guid: fab06cc6697437844bd769c19aeea27c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
