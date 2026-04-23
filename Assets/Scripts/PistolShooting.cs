@@ -26,6 +26,7 @@ public class PistolShooting : MonoBehaviour
 
     void Update()
     {
+        if (PauseManager.isPaused) return;
         if (Mouse.current.leftButton.isPressed && Time.time >= nextFireTime)
         {
             Shoot();
